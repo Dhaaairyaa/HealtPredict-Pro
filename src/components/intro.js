@@ -7,8 +7,8 @@ const Intro = () => {
     useEffect(() => {
         const typeData = new Typed('.role', {
             strings: [
-                'Predict Your Future',
-                'Protect Your Health',
+                'Predict Your Health',
+                'Protect Your Future',
 
             ],
             loop: true,
