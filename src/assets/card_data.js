@@ -7,7 +7,7 @@ export const cardData = [
         image: "https://firebasestorage.googleapis.com/v0/b/healthpredict-pro.appspot.com/o/stroke-removebg-preview.png?alt=media&token=96d9ce0f-ea01-4292-9e3b-3cb187058336",
     },
     {
-        Title: "heart attack Predictor",
+        Title: "Heart Attack Predictor",
         Aim: "Early Intervention Saves Lives Cardiovascular disease is the leading cause of death globally, claiming millions of lives each year as healthcare professionals can initiate preventive measures or administer life-saving treatment sooner, potentially saving lives.",
         Model: "Decision Tree algorithm which is 92% efficient is used in prediction of heart attack by using previosly availaible dataset for the trainning of model",
         btn_data: "Predict Now",
