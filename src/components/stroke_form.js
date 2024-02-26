@@ -78,7 +78,7 @@ const Strokeform = () => {
                                     <div className="flex items-center m-4 gap-x-2">
                                         <label className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Male</label>
                                         <input
-                                            type="checkbox"
+                                            type="radio"
                                             name="Gender"
                                             value="male"
                                             className="w-4 h-4 text-teal-600 bg-slate-500 border-gray-300 rounded focus:ring-teal-500 dark:focus:ring-teal-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
@@ -89,7 +89,7 @@ const Strokeform = () => {
                                     <div className="flex items-center m-4 gap-x-2">
                                         <label className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Female</label>
                                         <input
-                                            type="checkbox"
+                                            type="radio"
                                             name="Gender"
                                             value="Female"
                                             className="w-4 h-4 text-teal-600 bg-gray-100 border-gray-300 rounded focus:ring-teal-500 dark:focus:ring-teal-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
@@ -112,7 +112,7 @@ const Strokeform = () => {
                                     <div className="flex items-center m-4 gap-x-2">
                                         <label className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Yes</label>
                                         <input
-                                            type="checkbox"
+                                            type="radio"
                                             name="Hypertension_binary_feature"
                                             value="Yes"
                                             className="w-4 h-4 text-teal-600 bg-gray-100 border-gray-300 rounded focus:ring-teal-500 dark:focus:ring-teal-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
@@ -123,7 +123,7 @@ const Strokeform = () => {
                                     <div className="flex items-center gap-x-2">
                                         <label className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">No</label>
                                         <Field
-                                            type="checkbox"
+                                            type="radio"
                                             name="Hypertension_binary_feature"
                                             value="No"
                                             className="w-4 h-4 text-[#008000] bg-gray-100 border-gray-300 rounded focus:ring-[#008000] dark:focus:ring-[#008000] dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
@@ -140,13 +140,13 @@ const Strokeform = () => {
                         <div className="flex flex-col gap-6 mb-6">
 
                             <legend className="block -mb-3 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-white">
-                                Do you have any HeartDisease History
+                                History of Heart Disease
                                 <div className="flex flex-row items-center gap-x-4">
 
                                     <div className="flex items-center m-4 gap-x-2">
                                         <label className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Yes</label>
                                         <input
-                                            type="checkbox"
+                                            type="radio"
                                             name="HeartDiseaseHistory"
                                             value="Yes"
                                             className="w-4 h-4 text-teal-600 bg-gray-100 border-gray-300 rounded focus:ring-teal-500 dark:focus:ring-teal-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
@@ -157,7 +157,7 @@ const Strokeform = () => {
                                     <div className="flex items-center m-4 gap-x-2">
                                         <label className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">No</label>
                                         <input
-                                            type="checkbox"
+                                            type="radio"
                                             name="HeartDiseaseHistory"
                                             value="No"
                                             className="w-4 h-4 text-teal-600 bg-gray-100 border-gray-300 rounded focus:ring-teal-500 dark:focus:ring-teal-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
@@ -174,13 +174,13 @@ const Strokeform = () => {
                         <div className="flex flex-col gap-6 mb-6">
 
                             <legend className="block -mb-3 font-sans text-base antialiased font-semibold leading-relaxed tracking-normal text-white">
-                                Have you ever Married?
+                                Have you ever been married?
                                 <div className="flex flex-row items-center gap-x-4">
 
                                     <div className="flex items-center m-4 gap-x-2">
                                         <label className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Yes</label>
                                         <input
-                                            type="checkbox"
+                                            type="radio"
                                             name="Married"
                                             value="Yes"
                                             className="w-4 h-4 text-teal-600 bg-gray-100 border-gray-300 rounded focus:ring-teal-500 dark:focus:ring-teal-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
@@ -191,7 +191,7 @@ const Strokeform = () => {
                                     <div className="flex items-center m-4 gap-x-2">
                                         <label className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">No</label>
                                         <input
-                                            type="checkbox"
+                                            type="radio"
                                             name="Married"
                                             value="No"
                                             className="w-4 h-4 text-teal-600 bg-gray-100 border-gray-300 rounded focus:ring-teal-500 dark:focus:ring-teal-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
@@ -260,7 +260,7 @@ const Strokeform = () => {
                                     <div className="flex items-center m-4 gap-x-2">
                                         <label className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Urban</label>
                                         <input
-                                            type="checkbox"
+                                            type="radio"
                                             name="ResidenceType"
                                             value="Urban"
                                             className="w-4 h-4 text-teal-600 bg-gray-100 border-gray-300 rounded focus:ring-teal-500 dark:focus:ring-teal-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
@@ -271,7 +271,7 @@ const Strokeform = () => {
                                     <div className="flex items-center m-4 gap-x-2">
                                         <label className="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Rural</label>
                                         <input
-                                            type="checkbox"
+                                            type="radio"
                                             name="ResidenceType"
                                             value="Rural"
                                             className="w-4 h-4 text-teal-600 bg-gray-100 border-gray-300 rounded focus:ring-teal-500 dark:focus:ring-teal-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"

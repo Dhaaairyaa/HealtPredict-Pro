@@ -8,7 +8,7 @@ const Navbar = () => {
                 </div>
                 <div className="m-[50px] text-white text-[25px]">
                     <Link to="/" className="m-[20px]">About Us</Link>
-                    <Link to="/" className="m-[20px]">Moto</Link>
+                    <Link to="/" className="m-[20px]">Motto</Link>
                     <Link to="/" className="m-[20px]">Connect</Link>
                     <Link to="/" className="m-[20px]">Services</Link>
                 </div>
